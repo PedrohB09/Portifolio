@@ -96,12 +96,21 @@ section{
 }
 
 #cardAbout{
-    width: 400px;
-    height: 400px;
-    margin-left: 900px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+    margin-right: 250px;
+    margin-left: auto;
     color: white;
     border-radius: 6px 6px 4px;
     box-shadow: 2px 2px 8px black;
+    background-color: rgba(22, 21, 21, 0.822);
 }
 
 h1{
@@ -114,5 +123,15 @@ p{
     position: relative;
     text-align: center;
     font-size: 15px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
+
+footer{
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+}
+

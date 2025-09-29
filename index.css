@@ -122,7 +122,7 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
     display: inline-block;
     margin-top: 50px auto;
-    background-color: #3d3d3d;
+    background-color: rgba(22, 21, 21, 0.822);
     margin-right: -10px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -151,6 +151,15 @@ section{
     justify-content: center;
     display: flex;
 }
+
+footer{
+        width: 100vw;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.788);
+        color: #ffffff;
+        position: fixed;
+        bottom: 0;
+    }
 
 @media (max-width: 320px) {
     .cards{
