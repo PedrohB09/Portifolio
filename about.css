@@ -101,19 +101,77 @@ section{
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    position: relative;
     width: 450px;
-    height: 350px;
-    margin-right: 250px;
+    height: 400px;
+    margin-right: 20px;
     margin-left: auto;
     color: white;
     border-radius: 6px 6px 4px;
     box-shadow: 2px 2px 8px black;
     background-color: rgba(22, 21, 21, 0.822);
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+#cardAbout > img{
+    border-radius: 400px;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+    transition: transform 0.4s ease;
+}
+
+#cardAbout > h3{
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #d6d6d6e5;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.infoExtra{
+    width: 400px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+#cardAbout:hover{
+    background: linear-gradient(rgb(163, 163, 163), rgb(61, 61, 61));
+    color: #d6d6d6e5;
+    transform: scale(1.03);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#cardAbout:hover img {
+  transform: scale(1.04);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#cardAbout:hover .infoExtra{
+    opacity: 1;
+    max-height: 250px;
 }
 
 h1{
+    color: #ffffff;
     position: relative;
     text-align: justify;
     margin-left: 10px;
@@ -122,7 +180,7 @@ h1{
 p{
     position: relative;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 70px;
 }
 
@@ -137,16 +195,14 @@ footer{
 
 #perfil{
     background-color: rgba(22, 21, 21, 0.822);
-    width: 600px;
+    width: 500px;
+    padding: 30px;
     height: 400px;
-    margin-top: 70px;
+    margin-top: 60px;
+    justify-content: space-between;
     margin-left: 20px;
     margin-right: auto;
     border-radius: 6px 6px 4px;
     box-shadow: 2px 2px 8px black;
-    color: #ffffff;
+    color: #d6d6d6e5;
 }
-
-footer:hover[
-    
-]

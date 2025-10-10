@@ -114,10 +114,10 @@ section{
 }
 
 .info{
-    
     margin: 40px;
     margin-top: 0px;
     width: 400px;
+    height: 400px;
     text-align: left;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
     display: inline-block;
